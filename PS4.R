@@ -108,6 +108,8 @@ abline(a=NULL, b=NULL, h=50, col=c("green"), lty=2, lwd=3)
 text(1925, 30 ,"50% of Popular Vote", cex=1)
 arrows(1924, 34, 1928, 50, length=.10, lwd=2)
 
+#I’m aware that my uploaded pdf didn’t completely contain my plots, 
+#but I will ask about how to properly put them on the document next week.
 
 
 
