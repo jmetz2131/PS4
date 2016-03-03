@@ -26,7 +26,10 @@ names(my_table) #This gives me the column names
 my_table <- my_table[order(my_table$Year),]
 
 #Setting up the space in which the plots will be returned
-par(mfrow=c(1,2))
+par(mfrow=c(2,1))
+
+#Setting up the pdf document
+pdf(file="mygraphs.pdf")
 
 ##The two trends I will be looking at look at Turnout and Popular Vote won by the winner
 
